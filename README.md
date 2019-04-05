@@ -1,7 +1,9 @@
-## PIG DUCE GAME
+## PIG DICE GAME
 ## Desiree Mmasi
 
 ![]("Images/Dice.jpg")
+
+
 ## Description
 This is an application where the user logs into the website and first gets to see the rules displayed of the game so that he/she sees if they are worthy to play the game. Then procceds to play with an opponent and finally get to know who is better at Dice Game. The first to get 100 points or more is the winner! Fun right?
 
@@ -13,7 +15,8 @@ This is an application where the user logs into the website and first gets to se
 ## BDD
 | BEHAVIOUR                                 | INPUT                    | OUTPUT                  |
 |-------------------------------------------|--------------------------|-------------------------|
-| The user logs in and is able to view the  | clicks the game rules    | the rules are displayed || rules of the game                         |                          | for the user            || The user logs into the Pig-Dice game      | clicks on the Lets Play  | the gamer is able to    |
+| The user logs in and is able to view the  | clicks the game rules    | the rules are displayed || rules of the game                         |                          | for the user            ||                                           |                          |                         |
+|  The user logs into the Pig-Dice game     | clicks on the Lets Play  | the gamer is able to    |
 |                                           |                          |access the game and the  |
 |                                           |                          |rules disappear          |
 
