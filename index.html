@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="Css/Styles.css" rel="stylesheet" type="text/css">
     <link href="Css/Bootstrap.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
@@ -11,26 +12,21 @@
     <scripts src="js/Jquery.js"></scripts>
     <scripts src="js/Scripts.js"></scripts>
  <title>Pig Dice Game</title>
- <body background="Images/dice.gif">
+ <body background="./Images/dice3.jpg">
      <div class="container">
-     <div class="jumbotron">
-     <div class="header">
-     <h1>Game Rules!</h1>
+     <div class="jumbotron" id="tron">
+    <h1>Game Rules!</h1>
      </div>
-     </div>
-     <div id="rules">
+    <div id="jumbo">
      <ol>
          <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
          <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
          <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
          <li>The first player to score 100 or more points wins!</li>
      </ol>
-     <input name="Let's Play" class="btn btn-danger" value="Let's Play" type="button" id="Let's Play">
+  <input name="Let's Play" class="btn btn-danger" value="Let's Play" type="button" id="Let's Play" href="Game.html">
+  </div>
     </div>
-    
-          
-     
-    </div>
- </body>
+</body>
 </head>
  </html>
