@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <link href="Css/Bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="Css/Styles.css" rel="stylesheet" type="text/css">
+    <script src="js/Jquery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="Css/Styles.css" rel="stylesheet" type="text/css">
@@ -9,24 +13,83 @@
     <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Iceberg" rel="stylesheet">
-    <scripts src="js/Jquery.js"></scripts>
-    <scripts src="js/Scripts.js"></scripts>
- <title>Pig Dice Game</title>
- <body background="./Images/dice3.jpg">
-     <div class="container">
-     <div class="jumbotron" id="tron">
-    <h1>Game Rules!</h1>
-     </div>
-    <div id="jumbo">
-     <ol>
-         <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
-         <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-         <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
-         <li>The first player to score 100 or more points wins!</li>
-     </ol>
-  <input name="Let's Play" class="btn btn-danger" value="Let's Play" type="button" id="Let's Play" href="Game.html">
-  </div>
-    </div>
-</body>
+    <script src="js/Scripts.js"></script>
+
+    <title>Pig Dice Game</title>
 </head>
- </html>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="bg-info">GAME RULES!<h3>
+                    <div id="jumbo">
+                        <ol>
+                            <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+                            <li>If the player rolls any other number, it is added to their turn total and the player's
+                                turn
+                                continues.</li>
+                            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes
+                                the next
+                                player's
+                                turn.</li>
+                            <li>The first player to score 100 or more points wins!</li>
+                        </ol>
+                    </div>
+
+        </div>
+        <div class="jumbotron">
+
+            <h3 class="bg-info">LET'S PLAY<h3>
+
+                    <button id="start" type="button">Start</button>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+
+
+                                    <div class="form-group">
+                                        <h2>Player 1</h2>
+                                        <div class="score" id="score1">0</div>
+                                        <button id="player1-roll" class="btn btn-success">Roll</button>
+                                        <button id="player1-hold" class="btn btn-success">Hold</button>
+                                        <h2>Dice Roll: <span id="die-roll-1"></span></h2>
+                                        <p>Round Total: <span id="round-total-1"></span></p>
+                                        <p>Total Score: <span id="total-score-1"></span></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-6">
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+
+                                    <div class="form-group">
+                                        <h2>Player 2</h2>
+                                        <div class="score" id="score2">0</div>
+                                        <button id="player2-roll" class="btn btn-success">Roll</button>
+                                        <button id="player2-hold" class="btn btn-success">Hold</button>
+                                        <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+                                        <p>Round Total: <span id="round-total-2"></span></p>
+                                        <p>Total Score: <span id="total-score-2"></span></p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+    <script src="js/Scripts.js"></script>
+</body>
+
+</html>
