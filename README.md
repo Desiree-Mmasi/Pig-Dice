@@ -15,10 +15,13 @@ This is an application where the user logs into the website and first gets to se
 ## BDD
 | BEHAVIOUR                                 | INPUT                    | OUTPUT                  |
 |-------------------------------------------|--------------------------|-------------------------|
-| The user logs in and is able to view the  | clicks the game rules    | the rules are displayed || rules of the game                         |                          | for the user            ||                                           |                          |                         |
-|  The user logs into the Pig-Dice game     | clicks on the Lets Play  | the gamer is able to    |
-|                                           |                          |access the game and the  |
-|                                           |                          |rules disappear          |
+| The gamer logs in and is able to view the | The user reads the rules | The gamer after reading |
+|                                           |                          |                         |
+| rules                                     |                          | then scrolls down       ||                                           |                          |                         |
+|                                           |                          |                         ||                                           |                          |                         |
+|                                           |                          |                         |
+|  The user  starts the Pig-Dice game       | clicks on the Start      | the gamer is able to    |
+|                                           | Button                   |access the game          ||                                           |                          |                         |
 
 ## Known Bugs
 There are no known bugs detected on the original copyright of the application. If any feel free to let me know on my Github page Desiree-Mmasi or Slack @ Desiree Mmasi
