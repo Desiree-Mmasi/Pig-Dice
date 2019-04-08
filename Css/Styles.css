@@ -16,7 +16,8 @@ body {
     background-image: url("../Images/newdice.jpeg");
     background-repeat: no-repeat;
 }
-.bg-info{
+
+.bg-info {
     font-family: 'Iceberg', cursive;
     color: black;
     text-align: center;

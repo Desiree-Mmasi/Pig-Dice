@@ -1,7 +1,7 @@
 ## PIG DICE GAME
 ## Desiree Mmasi
 
-![]("Images/Dice.jpg")
+![]("./Images/dice.jpg")
 
 
 ## Description
