@@ -1,13 +1,24 @@
-.header{
+.tron {
     font-family: 'Luckiest Guy', cursive;
     color: maroon;
     text-align: center;
-    font-size: 120px;
+    font-size: 200px;
 }
 
-#rules{
+#jumbo {
     font-family: 'Iceberg', cursive;
-    color:black;
+    color: magenta;
     text-align: center;
-    font-size:40px;
+    font-size: 40px;
+}
+
+body {
+    background-image: url("../Images/newdice.jpeg");
+    background-repeat: no-repeat;
+}
+.bg-info{
+    font-family: 'Iceberg', cursive;
+    color: black;
+    text-align: center;
+    font-size: 80px;
 }
